@@ -1,0 +1,25 @@
+body{
+    background-color: lightcyan;
+    height: 100vh;
+}
+.container{
+    
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.parent{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.toastAlert{
+    background-color: blueviolet;
+    padding: 10px;
+    position: relative;
+    transition: bottom 0.4s ease-in-out;
+}
